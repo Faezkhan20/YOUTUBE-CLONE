@@ -1,0 +1,140 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+#loginscreenyoutube{
+    border: 1px solid red;
+    width: 100%;
+    height:720px;
+}
+#youtubeloginmain{
+    margin: auto;
+    width: 30%;
+    height: 500px;
+    border: 1px solid grey;
+   margin-top: 120px;
+   border-radius: 10px;
+   /* box-shadow: 0px 0px 1px 1px; */
+}
+.youtubelogologin{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    height: 30px;
+    margin-bottom: 1px;
+}
+.youtubelogologin :nth-child(1){
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+    margin: auto;
+
+}
+.signindiv{
+    /* border: 1px solid red; */
+    height: fit-content;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(32,33,36);
+    padding-bottom: 0;
+    padding-top: 16px;
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333
+
+}
+.useyourdiv{
+    /* border: 1px solid red; */
+    height: fit-content;
+    margin: auto;
+    width: 100%;
+    margin-bottom:30px ;
+    color: rgb(32,33,36);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+}
+.youtubelogininputdiv{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    /* margin-bottom: 30px; */
+}
+.youtubelogininputdiv2{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.youtubelogininputdiv2 :nth-child(1){
+    width: 100%;
+    height: 100%;
+}
+.youtubelogininputdiv :nth-child(1){
+    width: 100%;
+    height: 100%;
+}
+.forgetemail{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    /* color: blue; */
+    font-size: 14px;
+    margin-bottom: 30px ;
+    border-radius: 4px;
+    color: rgb(26,115,232);
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    margin-top: 10px;
+}
+.notyourtext{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 13px;
+    
+}
+.lastdivlogin{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.lastdivlogin >div {
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+    
+}
+.nextbuttton{
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(26,115,232);;
+    color: white;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+    border: none;
+    
+}
+
+.createp{
+    align-self: center;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+    color:  rgb(26,115,232);
+    text-decoration: underline;
+}
