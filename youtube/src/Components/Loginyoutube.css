@@ -138,3 +138,23 @@
     color:  rgb(26,115,232);
     text-decoration: underline;
 }
+.lastenglishdiv{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 29%;
+    height: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+#helpprivacyterm{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 30%;
+    font-size: 12px;
+    height: fit-content;
+    align-self: center;
+
+}

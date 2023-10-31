@@ -30,6 +30,15 @@ const Loginyoutube = () => {
                 <div> <button className='nextbuttton'>Next</button></div>
             </div>
         </div>
+
+        <div className='lastenglishdiv'>
+        <span>English(united state)</span>
+        <div id='helpprivacyterm'>
+          <div>Help</div>
+          <div>Privacy</div>
+          <div>Terms</div>
+        </div>
+      </div>
     </div>
   )
 }
