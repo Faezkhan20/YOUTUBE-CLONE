@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './HomeYoutube.css'
+import Navbar from './Navbar'
 
 const HomeYoutube = () => {
     const [data, setData] = useState([{
@@ -101,7 +102,9 @@ const HomeYoutube = () => {
         }
     ])
     return (
+        
         <div id='homeyoutube'>
+            <Navbar/>
             <div className='youtubebody'>
                 <div className='homeleft'>
                     <i style={{ marginTop: '25px' }} class="fa-solid fa-house fa-lg"></i>

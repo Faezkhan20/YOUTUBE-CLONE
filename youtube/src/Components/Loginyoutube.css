@@ -56,26 +56,48 @@
     letter-spacing: 0.1px;
     line-height: 1.5;
 }
-.youtubelogininputdiv{
-    /* border: 1px solid red; */
+.logininputdiv{
+    /* border: 1px solid black; */
     width: 80%;
-    height: 40px;
+    height: 52px;
     margin: auto;
     /* margin-bottom: 30px; */
+    position: relative;
 }
-.youtubelogininputdiv2{
-    width: 80%;
-    height: 40px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-.youtubelogininputdiv2 :nth-child(1){
+
+.logininputdiv :nth-child(1){
     width: 100%;
     height: 100%;
+    font-size: 16px;
+    border: 1px solid black;
+    outline: none;
+    /* border: none; */
+    
+    background: none;
+    /* color: white; */
 }
-.youtubelogininputdiv :nth-child(1){
-    width: 100%;
-    height: 100%;
+.loginlabel{
+    position: absolute;
+    top: 0.9rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 100ms ease-in,left 100ms ease-in, font-size 100ms ease-in;
+    color: rgb(118, 118, 118);
+    font-size: 17px;
+}
+.logininputfocus:focus ~ .loginlabel,
+.logininputfocus:not(:placeholder-shown).logininputfocus:not(:focus)~.loginuplabel
+{
+    top: -0.6rem;
+    left: 0.9rem;
+    font-size: 13px;
+    background: white;
+    color: blue;
+}
+
+.logininputfocus:focus{
+    border: 2px solid blue;
+    
 }
 .forgetemail{
     /* border: 1px solid red; */
@@ -98,6 +120,8 @@
     margin: auto;
     text-align: left;
     font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
     
 }
 .lastdivlogin{
@@ -131,12 +155,12 @@
 .createp{
     align-self: center;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
-    font-size: .875rem;
+    font-size: 16px;
     letter-spacing: .0107142857em;
     font-weight: 500;
     text-transform: none;
     color:  rgb(26,115,232);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .lastenglishdiv{
     /* border: 1px solid red; */

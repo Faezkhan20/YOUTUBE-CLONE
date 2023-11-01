@@ -1,7 +1,9 @@
 import toast from 'react-hot-toast';
 import './Navbar.css'
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const Navigate=useNavigate()
     return(
         <div id='navbar-screen'>
             <div className='navbar-body'>
@@ -23,9 +25,13 @@ const Navbar = () => {
                 <div className='navbar-right'>
                 <i class="fa-solid fa-video fa-lg"></i>
                 <i class="fa-regular fa-bell fa-lg"></i>
-                <div className='nav-photo'>
-                    <img src='https://cdn.pixabay.com/photo/2020/12/13/15/49/red-5828571_960_720.jpg'/>
+
+                <div onClick={()=>Navigate("/login")} className='nav-photo'>
+                    {/* <img src='https://cdn.pixabay.com/photo/2020/12/13/15/49/red-5828571_960_720.jpg'/> */}
+                    <i class="fa-solid fa-user"></i>
+                  <span className='signinfont'> Sign in</span>
                 </div>
+            
                 </div>
             </div>
         </div>

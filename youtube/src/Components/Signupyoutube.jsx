@@ -11,10 +11,12 @@ const Signupyoutube = () => {
         <div className='signindiv'>Create a Google Account</div>
         <div className='useyourdiv'>Enter your name</div>
         <div className='signupinputdiv'>
-          <input type="text" placeholder='First name' />
+          <input className='signupinputfocus' type="text" placeholder='' />
+          <label className='signuplabel'>First name</label>
         </div>
-        <div className='signupinputdiv2'>
-          <input type="text" placeholder='Last name (optional)' />
+        <div className='signupinputdiv'>
+          <input className='signupinputfocus' type="text" placeholder='' />
+          <label className='signuplabel'>Last name (optional)</label>
         </div>
          <div id='signupnext'> <div> <button className='nextbuttton'>Next</button></div></div>
       </div>

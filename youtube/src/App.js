@@ -10,7 +10,7 @@ import Signupyoutube from './Components/Signupyoutube';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<HomeYoutube/>} />
         <Route path='/navbar' element={<Navbar/>} />

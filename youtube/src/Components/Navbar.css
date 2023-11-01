@@ -97,10 +97,23 @@
 }
 .nav-photo{
     height: 32px;
-    width: 32px;
+    width: 60px;
+    border-radius: 10px;
+    padding-top: 7px;
+    /* margin-top: 10px; */
     align-self: center;
     /* border: 1px solid blue; */
-    border-radius: 50%;
+    /* top: 5px; */
+    /* border-radius: 50%; */
+    
+    
+}
+.ankarsignin{
+    text-decoration: none;
+}
+.signinfont{
+    font-size: 12px;
+    font-weight: 550;
 }
 .nav-photo > img{
     height: 100%;
