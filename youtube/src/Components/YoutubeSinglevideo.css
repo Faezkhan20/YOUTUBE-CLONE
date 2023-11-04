@@ -1,0 +1,85 @@
+#youtubesinglevideoscreen{
+    border: 1px solid red;
+    width: 100%;
+    height: 2000px;
+}
+#wholemain{
+    border: 1px solid red;
+    width:88%;
+    height: 2000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+#leftwholemain{
+    width: 69%;
+    border: 1px solid red;
+    height: 1000px;
+}
+#rightwholemain{
+    width: 29%;
+    border: 1px solid red;
+height: 1500px;
+}
+.leftvid{
+    border: 1px solid red;
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+}
+.leftvid iframe{
+    width: 99.7%;
+    height: 99.7%;
+    border-radius: 10px ;
+    margin: auto;
+}
+.title{
+    text-align: left;
+  margin-top: 10px;
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    font-size: 17px;
+ 
+    font-weight: 600;
+}
+.lastleftdiv{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+
+}
+.ownericon{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    margin-right: 10px;
+}
+.ownericonimg{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+border: 1px solid black; 
+}
+.ownername{
+border: 1px solid red;
+width: 70px;
+height: 20px;
+}
+.ownersubs{
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+}
+.subsbutton{
+    width: 110px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f1f1f1 ;
+    padding: 10px 20px;
+    align-self: center;
+    
+    
+}

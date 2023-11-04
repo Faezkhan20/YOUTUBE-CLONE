@@ -4,6 +4,7 @@ import HomeYoutube from './Components/HomeYoutube';
 import Navbar from './Components/Navbar';
 import Loginyoutube from './Components/Loginyoutube';
 import Signupyoutube from './Components/Signupyoutube';
+import YoutubeSinglevideo from './Components/YoutubeSinglevideo';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/navbar' element={<Navbar/>} />
         <Route path='/signup' element={<Signupyoutube/>} />
         <Route path='/login' element={<Loginyoutube/>} />
+        <Route path='/youtubesinglevideo' element={<YoutubeSinglevideo/>} />
 
       </Routes>
     </div>
