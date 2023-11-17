@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import './HomeYoutube.css'
 import Navbar from './Navbar'
+import { useNavigate } from 'react-router-dom'
 
 const HomeYoutube = () => {
+    const router =useNavigate()
     const [data, setData] = useState([{
         thumbnail: 'https://i.ytimg.com/vi/Sn9jAcGx3cs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB7lo_gv44qzQgzXiTQ7OOuTuJ-AA',
         image: 'https://yt3.ggpht.com/yjTVc8qOsfZR2ZJxljrSqnaJ6irI0rYZpwKLMfROIqijxTZK_it0dETF9VSdWMgyZFkuMHAx=s68-c-k-c0x00ffffff-no-rj',
@@ -107,17 +109,20 @@ const HomeYoutube = () => {
             <Navbar/>
             <div className='youtubebody'>
                 <div className='homeleft'>
+                    
                     <i style={{ marginTop: '25px' }} class="fa-solid fa-house fa-lg"></i>
-                    <span>Home</span><br />
+                    <span onClick={()=>router("/")}>Home</span>
+
+                    <br />
                     <i class="fa-solid fa-photo-film fa-lg"></i>
                     <span>Shorts</span><br />
                     <i class="fa-solid fa-folder-minus fa-lg"></i>
                     <span>Subscriptions</span><br/>
                     <div id='borderleftbottom'></div>
                     <i style={{ marginTop: '25px' }} class="fa-brands fa-youtube fa-lg"></i>
-                    <span>You</span> <br/>
+                    <span onClick={()=>router("/you")}>You</span> <br/>
                     <i class="fa-solid fa-clock-rotate-left"></i>
-                    <span>Histroy</span>
+                    <span onClick={()=>router("/history")}>Histroy</span>
                     <div style={{marginTop:'-10px'}} id='borderleftbottom'></div>
                     <div className='exploreleft'>Explore</div>
                     <i style={{marginTop:'30px'}}  class="fa-solid fa-fire-flame-curved"></i>

@@ -10,6 +10,10 @@
     display: flex;
     justify-content: space-between;
 }
+.homeleft :hover{
+    background-color: rgb(148, 149, 152);
+    cursor: pointer;
+}
 .homeleft{
     height: 620px;
     width: 18%;
