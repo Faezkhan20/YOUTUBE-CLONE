@@ -10,19 +10,7 @@
     display: flex;
     justify-content: space-between;
 }
-.you-left{
-    height: 300px;
-    width: 70px;
-    /* border: 1px solid black; */
-    position: sticky;
-    top: 13.5%;
-}
-.you-left > span{
-    font-size: 10px;
-}
-.you-left > i{
-    margin-top: 40px;
-}
+
 
 .you-right{
     /* border: 1px solid blue; */

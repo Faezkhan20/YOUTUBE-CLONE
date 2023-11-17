@@ -10,20 +10,38 @@
     display: flex;
     justify-content: space-between;
 }
-
-.HistoryLeft{
-    height: 300px;
-    width: 5.5%;
+.homeleft{
+    height: 620px;
+    width: 18%;
     /* border: 1px solid black; */
     position: sticky;
-    top: 13.5%;
+    top: 11.5%;
+    text-align: left;
+    /* left: 1%; */
 }
-.HistoryLeft > span{
+.homeleft > span{
     font-size: 10px;
+    margin-left: 10px;
+    /* max-width: 100%; */
+    /* display: block; */
+    max-height: 1.4rem;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.4rem; */
+    margin-top:10px;
+    
+    
 }
-.HistoryLeft > i{
-    margin-top: 40px;
+.homeleft > i{
+    /* margin-top: 35px; */
+    margin-bottom: 30px;
+    
+    
 }
+
 .HistoryRight{
     width: 90%;
     height: 100%;
@@ -169,35 +187,4 @@
     color: grey;
     font-size: 14px;
     font-weight: 500;
-}
-.homeleft{
-    height: 620px;
-    width: 18%;
-    /* border: 1px solid black; */
-    position: sticky;
-    top: 11.5%;
-    text-align: left;
-    /* left: 1%; */
-}
-.homeleft > span{
-    font-size: 10px;
-    margin-left: 10px;
-    /* max-width: 100%; */
-    /* display: block; */
-    max-height: 1.4rem;
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
-    white-space: nowrap;
-    font-size: 1rem;
-    font-weight: 400;
-    /* line-height: 1.4rem; */
-    margin-top:10px;
-    
-    
-}
-.homeleft > i{
-    /* margin-top: 35px; */
-    margin-bottom: 30px;
-    
-    
 }
