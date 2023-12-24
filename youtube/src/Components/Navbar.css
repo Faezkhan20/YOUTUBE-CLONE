@@ -9,7 +9,7 @@
 }
 .navbar-body{
     height: 60px;
-    width: 96%;
+    width: 92%;
     margin: auto;
     /* border: 1px solid red; */
     display: flex;
@@ -99,6 +99,7 @@
     height: 32px;
     width: 60px;
     border-radius: 10px;
+    display: flex;
     padding-top: 7px;
     /* margin-top: 10px; */
     align-self: center;
@@ -114,9 +115,34 @@
 .signinfont{
     font-size: 12px;
     font-weight: 550;
+    border: none;
+    outline: none;
+    
 }
 .nav-photo > img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
+}
+#logoutb{
+    border: none;
+    outline: none;
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    height: 25px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+
+}
+#buttonhandle{
+    width: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: -20px;
+}
+#username{
+    /* border: 1px solid red; */
+    margin-top: -1px;
+    margin-left: 2px;
 }

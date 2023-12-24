@@ -86,7 +86,7 @@
     font-size: 17px;
 }
 .logininputfocus:focus ~ .loginlabel,
-.logininputfocus:not(:placeholder-shown).logininputfocus:not(:focus)~.loginuplabel
+.logininputfocus:not(:placeholder-shown).logininputfocus:not(:focus)~.loginlabel
 {
     top: -0.6rem;
     left: 0.9rem;

@@ -1,109 +1,108 @@
 #signupyoutubescreen{
-width: 100%;
-height: 700px;
-/* border: 1px solid green; */
-}
-.youtubeloginmain{
-    margin: auto;
-    width: 30%;
-    height: 500px;
-    border: 1px solid grey;
-   /* margin-top: 20px; */
-   border-radius: 10px;
-   /* box-shadow: 0px 0px 1px 1px; */
-}
-.youtubelogologin{
-    /* border: 1px solid red; */
-    margin-top: 50px;
-    height: 30px;
-    margin-bottom: 1px;
-}
-.youtubelogologin :nth-child(1){
-    /* border: 1px solid red; */
-    width: 30%;
-    height: 100%;
-    margin: auto;
-
-}
-.signupinputdiv{
-    /* border: 1px solid black; */
-    width: 80%;
-    height: 52px;
-    margin: auto;
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.signupinputdiv :nth-child(1){
     width: 100%;
-    height: 100%;
-    font-size: 16px;
-    border: 1px solid black;
-    outline: none;
-    /* border: none; */
+    height: 700px;
+    /* border: 1px solid green; */
+    }
+    .youtubeloginmain{
+        margin: auto;
+        width: 30%;
+        height: 500px;
+        border: 1px solid grey;
+       /* margin-top: 20px; */
+       border-radius: 10px;
+       /* box-shadow: 0px 0px 1px 1px; */
+    }
+    .youtubelogologin{
+        /* border: 1px solid red; */
+        margin-top: 50px;
+        height: 30px;
+        margin-bottom: 1px;
+    }
+    .youtubelogologin :nth-child(1){
+        /* border: 1px solid red; */
+        width: 30%;
+        height: 100%;
+        margin: auto;
     
-    background: none;
-    /* color: white; */
-}
-.signuplabel{
-    position: absolute;
-    top: 0.9rem;
-    left: 1.4rem;
-    cursor: text;
-    transition: top 100ms ease-in,left 100ms ease-in, font-size 100ms ease-in;
-    color: rgb(118, 118, 118);
-    font-size: 17px;
-}
-.signupinputfocus:focus ~ .signuplabel,
-.signupinputfocus:not(:placeholder-shown).signupinputfocus:not(:focus)~.signuplabel
-{
-    top: -0.6rem;
-    left: 0.9rem;
-    font-size: 13px;
-    background: white;
-    color: blue;
-}
-
-.signupinputfocus:focus{
-    border: 2px solid blue;
+    }
+    .signupinputdiv{
+        /* border: 1px solid black; */
+        width: 80%;
+        height: 52px;
+        margin: auto;
+        margin-bottom: 30px;
+        position: relative;
+    }
     
-}
-
-#signupnext{
-/* border: 1px solid red; */
-height: 40px;
-display: flex;
-justify-content: end;
-width: 83%;
-margin: auto;
-
-
-
-}
-#signupnext :nth-child(1){
-    width: 80px;
-    height: 100%;
-    border-radius: 5px ;
-   
+    .signupinputdiv :nth-child(1){
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        border: 1px solid black;
+        outline: none;
+        /* border: none; */
+        
+        background: none;
+        /* color: white; */
+    }
+    .signuplabel{
+        position: absolute;
+        top: 0.9rem;
+        left: 1.4rem;
+        cursor: text;
+        transition: top 100ms ease-in,left 100ms ease-in, font-size 100ms ease-in;
+        color: rgb(118, 118, 118);
+        font-size: 17px;
+    }
+    .signupinputfocus:focus ~ .signuplabel,
+    .signupinputfocus:not(:placeholder-shown).signupinputfocus:not(:focus)~.signuplabel
+    {
+        top: -0.6rem;
+        left: 0.9rem;
+        font-size: 13px;
+        background: white;
+        color: blue;
+    }
     
-}
-.lastenglishdiv{
+    .signupinputfocus:focus{
+        border: 2px solid blue;
+        
+    }
+    
+    #signupnext{
     /* border: 1px solid red; */
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    width: 83%;
     margin: auto;
-    width: 29%;
-    height: 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-}
-#helpprivacyterm{
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
-    width: 30%;
-    font-size: 12px;
-    height: fit-content;
-    align-self: center;
-
-}
+    
+    
+    
+    }
+    #signupnext :nth-child(1){
+        width: 80px;
+        height: 100%;
+        border-radius: 5px ;
+       
+        
+    }
+    .lastenglishdiv{
+        /* border: 1px solid red; */
+        margin: auto;
+        width: 29%;
+        height: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    #helpprivacyterm{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        font-size: 12px;
+        height: fit-content;
+        align-self: center;
+    
+    }
